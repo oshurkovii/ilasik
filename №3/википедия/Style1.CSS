@@ -1,0 +1,38 @@
+body { 
+    background-color: #f5f5f5; 
+    font-family: "Ubuntu"; 
+}
+h1 {  
+    font-size: 50px; 
+    text-align: center; 
+}
+    
+h2 { 
+    font-size: 30px;
+    text-align: center;
+} 
+h3 {  
+    font-size: 30px; 
+    text-align: center; 
+}
+
+textarea {
+    resize: none; 
+    width: 50%;
+    height: 200px; 
+    background-color: #e7e7e7;
+    border: 0; 
+    outline: 0;
+} 
+.red { 
+    color: red; 
+    background-color: #e7e7e7;
+}
+.blue {  
+    color: #33aace;
+    background-color: #e7e7e7;
+    }
+a{
+    color: black;
+}
+    

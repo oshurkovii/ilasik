@@ -1,0 +1,18 @@
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        #input-area, #output-area {
+            width: 45%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #output-area {
+            background-color: #f9f9f9;
+        }
+        button {
+            margin-top: 10px;
+        }

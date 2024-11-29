@@ -1,0 +1,50 @@
+* {box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(151, 40, 136);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form > *{
+    width: 100px;
+    display: block;
+}
+
+.color {
+    display: flex;
+    background-color: red;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.line {
+    background-color: white;
+}
+
+#colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+padding-top: 10px;
+}
+
+h1{
+    text-align: center;
+    color: azure;
+}
+input{
+    height: 25px;
+}

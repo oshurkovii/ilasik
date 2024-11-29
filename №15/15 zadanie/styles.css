@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#cool-cursor {
+    position: absolute;
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%; 
+    pointer-events: none; 
+    transform: translate(-50%, -50%); 
+    background: linear-gradient(45deg, red, blue, white,red, blue, white);
+    background-size: 300%; 
+    animation: rainbow 5s linear infinite; 
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
